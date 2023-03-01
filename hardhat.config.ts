@@ -10,11 +10,11 @@ for (const f of fs.readdirSync(path.join(__dirname, 'hardhat'))) {
 
 module.exports = {
   solidity: {
-    version: "0.8.15",
+    version: "0.8.18",
     settings: {
       optimizer: {
         enabled: true,
-        runs: 200,
+        runs: 20000,
       },
     },
   },
